@@ -5,13 +5,7 @@ class GetPrice(scrapy.Spider):
 	urls=[
 			'https://www.ambientedirect.com/en/categories/furniture'
 		]
-	# def initiate_requests(self):
-	# 	# Extract all furnitures and its prices. There are total of 5472 products in furniture alone
-		
-
-	# 	for url in urls:
-	# 		yield scrapy.Request(url=url, callback=self.parse)
-
+	
 			# response.xpath('//div//div[@class="productSimpleTeaser__brand"]/text()').extract()
 
 	def parse(self, response):
